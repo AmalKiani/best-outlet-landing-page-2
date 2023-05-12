@@ -20,9 +20,10 @@
 }
 
 .logo{
-    width: 50px;
+    width: 75px;
     cursor: pointer;
-    margin: 30px 0;
+    margin: 15px 0;
+    margin-right: 5px;
 }
 
 .menu-icon{
@@ -44,19 +45,20 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000;
+    color: #1F2936;
     font-size: 14px;
 }
 
 nav ul li a:hover{
-    color: #FF5ea2;
+    color: #3882F6;
 }
 
 .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 0;
+    margin-top: 65px;
+    margin-bottom: 65px;
 }
 
 .col-1{
@@ -71,14 +73,14 @@ nav ul li a:hover{
 
 .col-1 h3{
     font-size: 32px;
-    color: #707070;
+    color: #1F2936;
     font-weight: 100;
     margin: 20px 0 10px;
 }
 
 .col-1 p{
     font-size: 16px;
-    color: #b7b7b7;
+    color: #1F2936;
     font-weight: 100;
 }
 
@@ -93,7 +95,7 @@ button{
     padding: 12px 10px;
     outline: none;
     color: #ffff;
-    background: linear-gradient(to right, #fb5283, #ff2537);
+    background-color: #3882F6;
     border-radius: 6px;
     cursor: pointer;
     transition: width 0.5s;
@@ -119,7 +121,7 @@ button:hover{
     content: "";
     width: 10px;
     height: 57%;
-    background: linear-gradient(#ff469f, #ff6062 );
+    background-color:  #1F2936;
     position: absolute;
     left: -40px;
     top: 8px;
@@ -140,7 +142,7 @@ button:hover{
     position: absolute;
     right: 0;
     top: 0;
-    background: linear-gradient(#ff469f, #ff6062 );
+    background-color:  #1F2936 ;
     border-radius: 20px 0 0 20px;
     height: 100%;
     width: 80%;
@@ -161,7 +163,7 @@ button:hover{
 }
 
 .social-links img{
-    height: 13px;
+    height: 20px;
     margin: 20px;
     cursor: pointer;
 }
@@ -175,7 +177,7 @@ button:hover{
 
     nav ul {
         width: 100%;
-        background: linear-gradient(#ff5482, #ff575a);
+        background-color: #fff;
         position: absolute;
         top: 75px;
         right: 0;
@@ -184,12 +186,15 @@ button:hover{
 
     nav ul li {
         display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 25px;
+        text-align: center;
     }
 
     nav ul li a {
-        color: #fff;
+        color: #1F2936;
+        font-size: 40px;
     }
 
     .menu-icon{
@@ -224,5 +229,8 @@ button:hover{
     }    
     .col-1 h3{
         font-size: 15px;
+    }
+    .social-links{
+        height: 40px
     }
 }
