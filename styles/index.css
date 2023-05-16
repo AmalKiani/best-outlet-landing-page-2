@@ -4,54 +4,78 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 75px;
+    margin-bottom: 100px;
 }
 
-.col-1{
+.row-1 .col-1,
+.row-2 .col-1{
     flex-basis: 40%;
     position: relative;
     margin-left: 50px;
 }
 
-.col-1 h2{
+.row-1 .col-1 h2{
     font-size: 54px;
 }
 
-.col-1 h3{
+.row-1 .col-1 h3{
     font-size: 32px;
     color: #1F2936;
     font-weight: 100;
     margin: 20px 0 10px;
 }
 
-.col-1 p{
+.row-1 .col-1 p{
     font-size: 16px;
     color: #1F2936;
     font-weight: 100;
 }
 
-.price {
+
+.row-1 .price,
+.row-2 .price {
     display: flex;
     margin-top: 25px;
 }
 
-.price h4{
+.row-1 .price h4{
     margin: 30px 0;
     font-size: 30px;
 }
 
-.price p {
+.row-1 .price p {
     margin: 30px 10px;
     font-size: 30px;
     text-decoration: line-through;
 }
 
 
+.row-2 .col-1 h2{
+    font-size: 45px;
+}
+
+.row-2 .col-1 h3{
+    font-size: 30px;
+    color: #1F2936;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+
+.row-2 .col-1 p{
+    font-size: 16px;
+    color: #1F2936;
+    font-weight: 100;
+}
+
+.row-2 .price h4{
+    margin: 30px 0;
+    font-size: 20px;
+}
 
 .col-1::after{
     content: "";
     width: 10px;
-    height: 57%;
+    height: 100%;
     background-color:  #1F2936;
     position: absolute;
     left: -40px;
@@ -98,6 +122,7 @@
     color: #fff;
     cursor: pointer;
 }
+
 
 .social-links img{
     height: 20px;

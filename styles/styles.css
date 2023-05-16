@@ -78,7 +78,7 @@ button:hover{
     width: 160px;
     display: flex;
     align-items: centre;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .social-links img{
     height: 20px;
