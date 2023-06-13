@@ -1,6 +1,4 @@
-var menuList = document.getElementById("menuList");
-
-console.log(menuList);
+const menuList = document.getElementById("menuList");
 
 menuList.style.maxHeight =  "0px";
 
