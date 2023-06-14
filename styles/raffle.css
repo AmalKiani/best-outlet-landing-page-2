@@ -1,0 +1,54 @@
+.raffleShowcase{
+    background-color: #1F2936;
+    border-radius: 10px 10px 30px 30px;
+
+    background: rgb(31,41,54);
+    background: linear-gradient(180deg, rgba(31,41,54,1) 5%, rgba(255,255,255,1) 80%);
+}
+
+h1 {
+    color: #fff;
+}
+
+.raffleComingSoon{
+    text-align: center;
+    padding: 25px;
+}
+
+.raffleComingSoon > h1{
+    font-size: 75px;
+    padding: 75px 0;
+
+}
+
+.raffleComingSoon > h2{
+    font-size: 35px;
+    padding: 30px 10px;
+}
+
+.raffleComingSoon > h3{
+    font-size: 30px;
+    padding-top: 30px 30px;
+}
+
+@media only screen and (max-width:700px){
+    .raffleComingSoon{
+        padding: 25px;
+    }
+
+    .raffleComingSoon > h1{
+        font-size: 75px;
+        padding: 75px 0;
+
+    }
+
+    .raffleComingSoon > h2{
+        font-size: 35px;
+        padding: 30px 10px;
+    }
+
+    .raffleComingSoon > h3{
+        font-size: 30px;
+        padding-top: 30px 30px;
+    }
+}
