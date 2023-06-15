@@ -159,10 +159,29 @@
     .col-1{
         flex-basis: 100%;
     }
-    .col-1 h2{
-        font-size: 35px;
+    .row-1 .col-1 h2{
+        font-size: 40px;
     }    
-    .col-1 h3{
-        font-size: 15px;
+    .row-1 .col-1 h3{
+        font-size: 25px;
+    }
+
+    .row-1 .col-1 p{
+        font-size: 20px;
+    }
+
+    .row-2 .col-1 h2{
+        font-size: 40px;
+    }    
+    .row-2 .col-1 h3{
+        font-size: 25px;
+    }
+
+    .row-2 .col-1 p{
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 25px;
     }
 }

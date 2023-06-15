@@ -11,3 +11,33 @@
     margin: auto;
     width: auto;
 }
+
+@media only screen and (max-width:700px){
+    
+    img{
+        max-width: 100%;
+    }
+    .bestBuyRow1 {
+        flex-direction: column;
+        text-align: center;
+        border-bottom: solid 5px #1F2936;
+        padding-bottom: 30px;
+    }    
+
+    .bestBuyR1C1{
+        padding-right: 25px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h3{
+        font-size: 35px;
+    }
+
+    button{
+        font-size: 30px;
+        width: 200px;
+    }
+}

@@ -1,54 +1,48 @@
-.raffleShowcase{
-    background-color: #1F2936;
-    border-radius: 10px 10px 30px 30px;
+.raffleRow1 {
+    display: flex;
+    border-bottom: solid 5px #1F2936;
+}
 
-    background: rgb(31,41,54);
-    background: linear-gradient(180deg, rgba(31,41,54,1) 5%, rgba(255,255,255,1) 80%);
+.raffleR1C1{
+
+}
+
+.raffleR1C2{
+    margin: auto;
+    width: auto;
 }
 
 h1 {
-    color: #fff;
-}
-
-.raffleComingSoon{
-    text-align: center;
-    padding: 25px;
-}
-
-.raffleComingSoon > h1{
-    font-size: 75px;
-    padding: 75px 0;
-
-}
-
-.raffleComingSoon > h2{
-    font-size: 35px;
-    padding: 30px 10px;
-}
-
-.raffleComingSoon > h3{
-    font-size: 30px;
-    padding-top: 30px 30px;
+    font-size: 40px;
+    color: #3882F6;
 }
 
 @media only screen and (max-width:700px){
-    .raffleComingSoon{
-        padding: 25px;
+    
+    img{
+        max-width: 100%;
+    }
+    .raffleRow1 {
+        flex-direction: column;
+        text-align: center;
+        border-bottom: solid 5px #1F2936;
+        padding-bottom: 30px;
+    }    
+
+    .raffleR1C1{
+        padding-right: 25px;
     }
 
-    .raffleComingSoon > h1{
-        font-size: 75px;
-        padding: 75px 0;
 
+    h1{
+        font-size: 50px;
     }
 
-    .raffleComingSoon > h2{
+    h3{
         font-size: 35px;
-        padding: 30px 10px;
     }
 
-    .raffleComingSoon > h3{
-        font-size: 30px;
-        padding-top: 30px 30px;
+    button{
+        display: none;
     }
 }
