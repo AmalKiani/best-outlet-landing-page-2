@@ -1,0 +1,30 @@
+.mailingListSignUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 34px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  14px 14px 37px #dedede,
+                 -14px -14px 37px #ffffff;
+    
+}
+
+.mailingListText{
+    margin-left: 30px;
+}
+
+.mailingListText h1{
+    font-size: 30px;
+}
+
+.mailingListText p{
+    font-size: 20px;
+}
+
+.mailingListButton{
+    margin-right: 40px;
+}

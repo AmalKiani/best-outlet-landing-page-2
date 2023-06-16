@@ -1,0 +1,39 @@
+
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+.mailChimpSignUpFormContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mailChimpSignUpFormPhoto{
+    Margin-left: 50px;
+}
+
+#wholesaleIllustration{
+    Height: 450px;
+    width: auto;
+}
+
+.mailChimpSignUpForm{
+    width: 100%;
+    height: 400px;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 34px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  14px 14px 37px #dedede,
+                 -14px -14px 37px #ffffff;
+}
+
+#mc_embed_signup{
+    background-color: transparent;
+}
+
+@media only screen and (max-width:700px){
+    #wholesaleIllustration {
+        display: none;
+    }
+}
