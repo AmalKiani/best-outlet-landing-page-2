@@ -1,8 +1,38 @@
-
+*{
+    box-sizing: border-box;
+}
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 
+h2{
+    text-align: center;
+}
+
+input {
+    height: 25px;
+    border-style: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+label,
+input {
+    display:flex;
+    flex-direction:column;
+}
+
+#mc-embedded-subscribe {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+}
+
+
+.asterisk {
+    color: red;
+}
 .mailChimpSignUpFormContainer{
     display: flex;
     justify-content: space-between;
@@ -32,8 +62,28 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
     background-color: transparent;
 }
 
+.mc-field-group {
+    border: 5px solid pink;
+    padding: 5px;
+}
+
+.form-line-1{
+    display:flex;
+    flex: 50%;
+}
+
+.form-line-2{
+    border: 5px solid forestgreen;
+    display: flex;
+    flex-direction: row;
+}
+
+.country-selection{
+    display: none;
+}
+
 @media only screen and (max-width:700px){
     #wholesaleIllustration {
         display: none;
     }
-}
+} 
