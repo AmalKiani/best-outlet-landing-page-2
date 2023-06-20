@@ -3,8 +3,12 @@
 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 
 h2{
-    margin: 0;
+    font-size: 20px;
     text-align: center;
+}
+
+.input-label {
+    margin-left: 5px;
 }
 
 input {
@@ -52,15 +56,15 @@ select{
 }
 
 #wholesaleIllustration{
-    Height: 450px;
+    Height: 425px;
     width: auto;
 }
 
 .mailChimpSignUpForm{
     width: 100%;
-    height: 400px;
+    height: 450px;
     padding: 25px;
-    margin: 25px 0;
+    /* margin: 25px 0; */
     border-radius: 34px;
     background: linear-gradient(145deg, #e6e6e6, #ffffff);
     box-shadow:  14px 14px 37px #dedede,
